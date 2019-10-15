@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Proyecto 1.0</string>
+    <string name="title_contactos">Contactos</string>
+    <string name="title_inicio">Inicio</string>
+    <string name="title_scanner">Scanner</string>
+    <string name="title_reportes">Reportes</string>
+    <string name="Iniciar">Iniciar Sesion</string>
+    <string name="Usuario">Usuario</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="title">Alvelectric</string>
+</resources>

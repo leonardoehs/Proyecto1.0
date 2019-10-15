@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_Inicio"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_inicio" />
+
+    <item
+        android:id="@+id/navigation_contacto"
+        android:icon="@drawable/ic_contacts_black_24dp"
+        android:title="@string/title_contactos" />
+
+    <item
+        android:id="@+id/navigation_scanner"
+        android:icon="@drawable/ic_fullscreen_black_24dp"
+        android:title="@string/title_scanner" />
+
+    <item
+        android:id="@+id/navigation_reporte"
+        android:icon="@drawable/ic_trending_up_black_24dp"
+        android:title="@string/title_reportes" />
+
+</menu>
