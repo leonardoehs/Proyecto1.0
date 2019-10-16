@@ -21,15 +21,16 @@ public class MainActivity extends AppCompatActivity {
         password=findViewById(R.id.password);
     }
     public void clickNuevo(View v){
+        /*
         if(username.getText().toString().isEmpty()){
             Toast.makeText(this,"!Por favor ingrse su usuario!",Toast.LENGTH_SHORT).show();
         }else if(password.getText().toString().isEmpty()) {
             Toast.makeText(this, "!Por favor ingrse su contraseña!", Toast.LENGTH_SHORT).show();
-        }else if(username.getText().toString().equals("root") && password.getText().toString().equals("admin")){
+        }else if(username.getText().toString().equals("root") && password.getText().toString().equals("admin")){*/
             Intent i = new Intent(this, PrincipalActivity.class);
-            startActivity(i);
+            startActivity(i);/*
         }else{
             Toast.makeText(this, "Datos Erroneos", Toast.LENGTH_SHORT).show();
-        }
+        }*/
     }
 }

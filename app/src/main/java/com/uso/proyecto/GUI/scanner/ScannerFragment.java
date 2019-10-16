@@ -16,6 +16,10 @@ import com.uso.proyecto.GUI.contactos.ContactosViewModel;
 import com.uso.proyecto.R;
 
 public class ScannerFragment extends Fragment {
+    public static ScannerFragment newInstance() {
+        return new ScannerFragment();
+    }
+
 
     private ScannerViewModel scannerViewModel;
 

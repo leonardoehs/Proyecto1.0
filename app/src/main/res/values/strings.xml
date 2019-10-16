@@ -9,4 +9,9 @@
     <string name="Contraseña">Contraseña</string>
     <string name="welcome">"Welcome !"</string>
     <string name="title">Alvelectric</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="sport_fragment">Sport Fragment</string>
+    <string name="movie_fragment">Movie Fragment</string>
+    <string name="tab_text_1">Empleados</string>
+    <string name="tab_text_2">Proveedores</string>
 </resources>

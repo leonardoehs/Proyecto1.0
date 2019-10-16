@@ -9,21 +9,13 @@ import java.util.List;
 
 public class InicioViewModel extends ViewModel {
 
-    private MutableLiveData<String> txtInicio1 = new MutableLiveData<>();
-    private MutableLiveData<String> txtInicio2 = new MutableLiveData<>();
+    private MutableLiveData<String> txtInicio = new MutableLiveData<>();
 
-    public void setTxtInicio1(String text) {
-        this.txtInicio1.setValue(text);
+    public void setTxtInicio(String text) {
+        this.txtInicio.setValue(text);
     }
 
-    public LiveData<String> getTxtInicio1() {
-        return txtInicio1;
-    }
-    public void setTxtInicio2(String text) {
-        this.txtInicio2.setValue(text);
-    }
-
-    public LiveData<String> getTxtInicio2() {
-        return txtInicio2;
+    public LiveData<String> getTxtInicio() {
+        return txtInicio;
     }
 }

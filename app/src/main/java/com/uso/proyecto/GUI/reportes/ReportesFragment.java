@@ -17,6 +17,10 @@ import com.uso.proyecto.GUI.contactos.ContactosViewModel;
 import com.uso.proyecto.R;
 
 public class ReportesFragment extends Fragment {
+    public static ReportesFragment newInstance() {
+        return new ReportesFragment();
+    }
+
 
     private ReportesViewModel reportesViewModel;
 
